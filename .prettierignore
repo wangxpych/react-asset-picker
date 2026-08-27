@@ -1,0 +1,7 @@
+node_modules
+dist
+demo-dist
+.artifacts
+coverage
+src/data/emojis.generated.ts
+pnpm-lock.yaml

@@ -1,0 +1,9 @@
+react-asset-picker includes generated emoji metadata derived from Emojibase
+(https://github.com/milesj/emojibase), distributed under the MIT License.
+
+Emoji annotations and character data incorporate Unicode Consortium data.
+Unicode data files and software are covered by the Unicode License Agreement:
+https://www.unicode.org/license.txt
+
+No emoji artwork is bundled. Emoji glyphs are rendered by the user’s operating
+system and browser.
