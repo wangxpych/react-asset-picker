@@ -1,8 +1,7 @@
 {
   "name": "react-asset-picker",
-  "version": "0.0.0-development",
+  "version": "0.1.0",
   "description": "A polished, composable emoji, icon, and image picker for React.",
-  "private": true,
   "homepage": "https://github.com/wangxpych/react-asset-picker#readme",
   "repository": {
     "type": "git",
@@ -40,6 +39,9 @@
   "sideEffects": [
     "**/*.css"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite --config vite.demo.config.ts",
     "build": "pnpm generate:data && pnpm typecheck && pnpm build:lib && pnpm build:demo",
@@ -52,6 +54,8 @@
     "format:check": "prettier --check .",
     "test": "vitest run",
     "test:watch": "vitest",
+    "prepack": "pnpm generate:data && pnpm typecheck && pnpm build:lib",
+    "prepublishOnly": "pnpm check",
     "check": "pnpm generate:data && pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build:lib && pnpm build:demo",
     "pack:check": "pnpm pack --pack-destination .artifacts"
   },

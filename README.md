@@ -1,12 +1,13 @@
 # react-asset-picker
 
+[![npm version](https://img.shields.io/npm/v/react-asset-picker.svg)](https://www.npmjs.com/package/react-asset-picker)
+[![CI](https://github.com/wangxpych/react-asset-picker/actions/workflows/ci.yml/badge.svg)](https://github.com/wangxpych/react-asset-picker/actions/workflows/ci.yml)
+[![license](https://img.shields.io/npm/l/react-asset-picker.svg)](LICENSE)
+
 A polished, composable Emoji, Icon, and Image picker for React. Use the same
 Notion-inspired picker for chat composers, avatars, page icons, workspace
 identity, and other visual assets—without coupling your UI to an icon library or
 upload provider.
-
-> Local preview: the package is intentionally private and has not been published
-> to npm yet.
 
 ## Demo
 
@@ -50,7 +51,7 @@ Then open <http://127.0.0.1:4173>.
 
 ## Usage
 
-After the first npm release, the intended installation and API are:
+Install the package from npm:
 
 ```bash
 pnpm add react-asset-picker
@@ -174,10 +175,8 @@ demo. See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance and
 ## Release status
 
 The source is public on
-[GitHub](https://github.com/wangxpych/react-asset-picker), but `package.json`
-remains `private: true` at `0.0.0-development`. npm publication, versioning,
-tags, and GitHub releases are intentionally deferred until the public API and
-demo are approved.
+[GitHub](https://github.com/wangxpych/react-asset-picker). The current npm
+release is [`react-asset-picker@0.1.0`](https://www.npmjs.com/package/react-asset-picker).
 
 ## License
 
