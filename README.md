@@ -10,6 +10,14 @@ upload provider.
 
 ## Demo
 
+### Chat composer
+
+![Chat composer example](assets/chat-composer.png)
+
+### Avatar and page icon
+
+![Avatar and page icon example](assets/avatar-page-icon.png)
+
 The repository includes two copyable integrations:
 
 - [Chat composer](demo/examples/ChatComposerExample.tsx): inserts Emoji at the
