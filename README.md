@@ -12,11 +12,11 @@ upload provider.
 
 ### Chat composer
 
-![Chat composer example](assets/chat-composer.png)
+![Chat composer example](https://raw.githubusercontent.com/wangxpych/react-asset-picker/main/assets/chat-composer.png)
 
 ### Avatar and page icon
 
-![Avatar and page icon example](assets/avatar-page-icon.png)
+![Avatar and page icon example](https://raw.githubusercontent.com/wangxpych/react-asset-picker/main/assets/avatar-page-icon.png)
 
 The repository includes two copyable integrations:
 
@@ -173,10 +173,11 @@ demo. See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidance and
 
 ## Release status
 
-The project is prepared for an initial GitHub review, but `package.json` remains
-`private: true` at `0.0.0-development`. npm publication, versioning, tags, and
-GitHub releases are intentionally deferred until the public API and demo are
-approved.
+The source is public on
+[GitHub](https://github.com/wangxpych/react-asset-picker), but `package.json`
+remains `private: true` at `0.0.0-development`. npm publication, versioning,
+tags, and GitHub releases are intentionally deferred until the public API and
+demo are approved.
 
 ## License
 

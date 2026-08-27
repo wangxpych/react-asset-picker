@@ -3,6 +3,21 @@
   "version": "0.0.0-development",
   "description": "A polished, composable emoji, icon, and image picker for React.",
   "private": true,
+  "homepage": "https://github.com/wangxpych/react-asset-picker#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangxpych/react-asset-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wangxpych/react-asset-picker/issues"
+  },
+  "keywords": [
+    "react",
+    "emoji",
+    "icon-picker",
+    "asset-picker",
+    "notion-style"
+  ],
   "type": "module",
   "packageManager": "pnpm@11.23.0",
   "main": "./dist/index.cjs",
